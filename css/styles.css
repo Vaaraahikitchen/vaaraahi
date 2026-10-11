@@ -100,6 +100,8 @@ a:focus-visible, button:focus-visible, input:focus-visible {
   color: var(--gold-hi);
 }
 .opening-banner .ob-mark { color: var(--gold); font-size: 0.78rem; line-height: 1; }
+a.ob-text { color: var(--gold-hi); border-bottom: 1px solid transparent; transition: color .2s, border-color .2s; }
+a.ob-text:hover { color: #fff; border-bottom-color: var(--gold); }
 @media (max-width: 760px) {
   .opening-banner .ob-text { font-size: 0.72rem; letter-spacing: 0.18em; }
   .opening-banner .wrap { gap: 10px; }
@@ -443,7 +445,8 @@ a:focus-visible, button:focus-visible, input:focus-visible {
   .nav-links.open { display: flex; }
   .nav-links li { width: 100%; }
   .nav-links a { display: block; padding: 12px 0; border-bottom: 1px solid var(--line); }
-  .nav .order-btn { display: none; }
+  .nav .order-btn { padding: 9px 12px; font-size: 0.68rem; letter-spacing: 0.06em; white-space: nowrap; }
+  .nav .brand .name { font-size: 1rem; }
   .menu-controls { top: 61px; }
   .footer-grid { grid-template-columns: 1fr; }
   .footer-base { justify-content: center; text-align: center; }
@@ -559,3 +562,12 @@ a:focus-visible, button:focus-visible, input:focus-visible {
 .menu-section { scroll-margin-top: 190px; }
 @media (max-width: 760px) { .menu-section { scroll-margin-top: 150px; } }
 @media (max-height: 620px) { .menu-section { scroll-margin-top: 20px; } }
+
+
+/* ---------- Map embed (contact) ---------- */
+.map-embed {
+  margin-top: 28px; border: 1px solid var(--line); border-radius: 10px;
+  overflow: hidden; line-height: 0; background: var(--black-deep);
+}
+.map-embed iframe { width: 100%; height: 380px; border: 0; display: block; filter: saturate(0.85); }
+@media (max-width: 760px) { .map-embed iframe { height: 280px; } }

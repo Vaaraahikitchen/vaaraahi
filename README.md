@@ -44,10 +44,13 @@ The full map is `PHOTO_URLS` at the top of `js/images.js`, one line per dish wit
 Your signage mockups are cropped into `assets/`: `exterior.jpg` (monument sign + building at dusk, the home hero), `storefront.jpg`, `entrance.jpg` (the frosted glass doors) and `team.jpg` (the polo). Replace any of these with real photos of the same shape and nothing else needs changing.
 
 ## Before launch — checklist
-1. **Opening hours** — the only contact detail still missing. Search for "to be added" / "Coming soon"; they appear in the Hours card on `contact.html` and in every page footer.
-2. **Online ordering** — the header button currently dials +1 (469) 850-4763 ("Call to Order"). When your ordering platform is live, swap the `href="tel:..."` for the ordering URL and change the label back to "Order Online".
-3. **Dish photos** — see above.
-4. **Map** — done: `contact.html` embeds Google Maps for 2550 Preston Rd, Frisco, TX 75034.
+1. **Opening hours** — still the only missing contact detail. Search for "to be added" / "Coming soon"; they appear in the Hours card on `contact.html` and in every page footer. They also need to be set in Toast under **Takeout & delivery → Ordering hours & availability**, which is currently Closed all seven days.
+2. **Online ordering** — done. The header button on all five pages, the home hero, the top banner and `contact.html` point to the Toast ordering page:
+   `https://order.toasttab.com/online/vaaraahi-biryanis-and-beyond-2550-preston-road`
+   `order.html` is a redirect so `vaaraahikitchen.com/order` works for QR codes and print — if the Toast slug ever changes, edit that one file.
+3. **Phone** — done: +1 (214) 277-2666 everywhere (tel: links, footers, JSON-LD).
+4. **Address** — `contact.html` shows 2550 Preston Road, Frisco, Texas, with a Google Maps embed and a directions link. **ZIP still needs confirming** before adding it to the address card and JSON-LD.
+5. **Dish photos** — see above.
 
 ## Editing the menu later
 `js/data.js`, one line per dish:
