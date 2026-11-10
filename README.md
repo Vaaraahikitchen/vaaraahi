@@ -6,7 +6,8 @@ A dependency-free static website. No build step, no framework — upload the fol
 - `index.html` — Home (storefront hero, entrance section, signature dishes)
 - `menu.html` — Full menu: live search, category pills, Veg/Non-Veg filter, Cards/List toggle, **199 dishes**
 - `about.html` — Story + tagline
-- `blogs.html` — Food stories and cooking traditions
+- `blogs.html` — Blog post listing
+- `blog-business-lunch.html` — Business lunch delivery guide for Frisco
 - `catering.html` — Three packages + how it works
 - `contact.html` — Location / phone / hours (placeholders)
 

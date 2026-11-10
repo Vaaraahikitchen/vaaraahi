@@ -270,8 +270,15 @@ a.ob-text:hover { color: #fff; border-bottom-color: var(--gold); }
   font-family: var(--font-display); color: var(--gold); font-weight: 500;
   font-size: clamp(1.3rem, 3vw, 1.8rem); line-height: 1.4; margin-bottom: 18px;
 }
+.blog-article h3 {
+  margin-top: 26px; color: var(--cream); font-family: var(--font-name);
+  font-size: 1.15rem; font-weight: 400;
+}
 .blog-article p { color: var(--muted); margin-top: 14px; }
 .blog-article p:first-of-type { color: var(--cream); }
+.blog-article ul { margin: 12px 0 18px; padding-left: 24px; color: var(--muted); }
+.blog-article li { padding: 4px 0 4px 4px; }
+.blog-article li::marker { color: var(--gold); }
 .blog-article .blog-read-link { margin-top: 22px; }
 
 /* ---------- Signature dishes (home) ---------- */
