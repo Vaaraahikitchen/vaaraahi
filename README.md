@@ -6,6 +6,7 @@ A dependency-free static website. No build step, no framework — upload the fol
 - `index.html` — Home (storefront hero, entrance section, signature dishes)
 - `menu.html` — Full menu: live search, category pills, Veg/Non-Veg filter, Cards/List toggle, **199 dishes**
 - `about.html` — Story + tagline
+- `blogs.html` — Food stories and cooking traditions
 - `catering.html` — Three packages + how it works
 - `contact.html` — Location / phone / hours (placeholders)
 
